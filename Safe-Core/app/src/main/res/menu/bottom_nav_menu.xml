@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/pngegg"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_greenpass"
+        android:icon="@drawable/kisspng_qr_code_barcode_scanners_information_creative_dimensional_code_5adab04b86af54_5011057815242814195517"
+        android:title="@string/title_green_pass"  />
+
+    <item
+        android:id="@+id/navigation_cartellaclinica"
+        android:icon="@drawable/pngegg__1_"
+        android:title="@string/title_cartella_clinica" />
+
+</menu>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/photo1652971691"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/qrcode"
+        android:layout_width="317dp"
+        android:layout_height="333dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/photo1652971723"
+        tools:layout_editor_absoluteY="191dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/scan"
+        android:layout_width="53dp"
+        android:layout_height="55dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/kisspng_qr_code_barcode_scanners_information_creative_dimensional_code_5adab04b86af54_5011057815242814195517"
+        tools:layout_editor_absoluteX="358dp"
+        tools:layout_editor_absoluteY="651dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

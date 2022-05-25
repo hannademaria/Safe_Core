@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.safe_core.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_greenpass"
+        android:name="com.example.safe_core.ui.greenpass.GreenpassFragment"
+        android:label="@string/title_green_pass"
+        tools:layout="@layout/fragment_green_pass" />
+
+    <fragment
+        android:id="@+id/navigation_cartellaclinica"
+        android:name="com.example.safe_core.ui.cartellaclinica.CartellaclinicaFragment"
+        android:label="@string/title_cartella_clinica"
+        tools:layout="@layout/fragment_cartella_clinica" />
+</navigation>
